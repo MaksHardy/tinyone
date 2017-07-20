@@ -1,0 +1,42 @@
+.footer {
+    background-color: #010101;
+    padding-top: 55px;
+    padding-bottom: 130px;
+    &__adress {
+        color: #ffffff;
+        font-family: "PT Sans";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        margin-bottom: 5px;
+        max-width: 200px;
+    }
+    &__list {
+        list-style-type: none;
+    }
+    &__link {
+        color: #ffffff;
+        font-family: "PT Sans";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        transition: all .3s ease-in;
+        &:hover {
+            color: #fcdb00;
+            text-decoration: none;
+        }
+        &:focus {
+            color: #fcdb00;
+            text-decoration: none;
+            outline: none;
+        }
+    }
+    &__ul {
+        padding: 0;
+    }
+    &__ul-wrap {
+        @media screen and (max-width: 768px) {
+            padding-bottom: 20px;
+        }
+    }
+}

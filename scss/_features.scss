@@ -1,0 +1,59 @@
+.features {
+    padding-top: 96px;
+    padding-bottom: 152px;
+    &:focus {
+        outline: none;
+    }
+    &__title {
+        text-align: center;
+    }
+    &__title-content {
+        color: #010101;
+        font-family: "PT Sans";
+        font-size: 32px;
+        font-weight: 700;
+        margin-bottom: 12px;
+    }
+    &__text {
+        text-align: center;
+    }
+    &__text-content {
+        color: #313841;
+        font-family: "PT Sans";
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px;
+        max-width: 732px;
+        margin: 0 auto;
+        margin-bottom: 11px;
+    }
+}
+
+.article {
+    margin-top: 55px;
+    &__icon {
+        text-align: center;
+        color: #010101;
+        font-size: 54px;
+        &--mobile {
+
+            top: -3px;
+        }
+    }
+    &__title {
+        color: #010101;
+        font-family: "PT Sans";
+        font-size: 22px;
+        font-weight: 400;
+        @media screen and (max-width: 990px) {
+            text-align: center;
+        }
+    }
+    &__text {
+        font-family: "PT Sans";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        color: #898989;
+    }
+}
