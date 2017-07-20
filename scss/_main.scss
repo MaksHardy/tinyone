@@ -2,6 +2,14 @@
 @font-face {
 	font-family: 'Helvetica Neue';
 	src: url(../fonts/helveticaneuecyr-bold.otf) format('otf');
+	    src: url(../fonts/HelveticaNeueCyr-Bold.eot);
+	src: url(../fonts/HelveticaNeueCyr-Bold.eot?#iefix) format('embedded-opentype'),
+		url(../fonts/HelveticaNeueCyr-Bold.woff2) format('woff2'),
+		url(../fonts/HelveticaNeueCyr-Bold.woff) format('woff'),
+		url(../fonts/HelveticaNeueCyr-Bold.svg#HelveticaNeueCyr-Bold) format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
 }
 
 * {

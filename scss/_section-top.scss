@@ -60,7 +60,7 @@
         font-size: 22px;
         font-weight: 700;
         transition: all .3s ease-in;
-        padding-left: 36px !important;
+
 
 
         &:hover {
@@ -69,6 +69,10 @@
             color: grey;
         }
     }
+}
+
+.navbar-nav > li > a {
+    padding-left: 36px;
 }
 
 .icon-bar {
